@@ -10,8 +10,8 @@ import java.util.UUID;
 public class Task {
     /**
      * Simple constructor for the {@link Task Task} object. Creates {@link Task#ID ID} parameter and assigns the {@link Calendar calendar} and {@link User user} objects used to create the Task.
-     * @param calendar
-     * @param user
+     * @param calendar A {@link Calendar Calendar}
+     * @param user A {@link User User}
      */
     public Task(Calendar calendar, User user){
         ID = UUID.randomUUID().toString();

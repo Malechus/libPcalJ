@@ -9,8 +9,8 @@ import java.util.UUID;
 public class Availability {
     /**
      * Simple constructor that associates the new Availability pattern with a {@link User User} and {@link Calendar Calendar}.
-     * @param user
-     * @param calendar
+     * @param user A {@link User User}
+     * @param calendar A {@link Calendar Calendar}
      */
     public Availability(User user, Calendar calendar){
         ID = UUID.randomUUID().toString();

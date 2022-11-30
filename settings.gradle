@@ -8,4 +8,4 @@
  */
 
 rootProject.name = 'libPcalJ'
-include('lib')
+include('libPcalJ')

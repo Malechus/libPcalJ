@@ -11,7 +11,7 @@ import java.util.Optional;
 public class Event {
     /**
      * Simple constructor that defines the {@link User User} that created or is creating the Event.
-     * @param UserID
+     * @param user A {@link User User}
      */
     public Event(User user){
         ID = java.util.UUID.randomUUID().toString();

@@ -10,8 +10,8 @@ import java.util.UUID;
 public class Calendar {
     /**
      * Overload constructor defines the creating {@link User User} and the {@link #PrivacyLevel privacy} that should be assigned.
-     * @param user
-     * @param privacy
+     * @param user A {@link User User}
+     * @param privacy An int value between 1 and 3 representing the privacy level.
      */
     public Calendar(User user, int privacy){
         ID = UUID.randomUUID().toString();
@@ -21,7 +21,7 @@ public class Calendar {
 
     /**
      * Simple constructor that defines the creating {@link User User}. The {@link #PrivacyLevel PrivacyLevel} will be defaulted to the most private.
-     * @param user
+     * @param user A {@link User User}
      */
     public Calendar(User user){
         ID = UUID.randomUUID().toString();

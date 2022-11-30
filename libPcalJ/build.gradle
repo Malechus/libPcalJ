@@ -31,3 +31,18 @@ tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
 }
+
+tasks.named('jar'){
+	manifest{
+		attributes('Implementation-Title': 'libPcalJ', 'Implementation-Version': '0.0.1')
+	}
+}
+
+java{
+	withSourcesJar()
+	withJavadocJar()
+}
+
+version = '0.0.1'
+
+group = 'calendar.poly'
