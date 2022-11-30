@@ -1,4 +1,4 @@
-package libPcalJ.classes;
+package libPcalJ;
 
 import java.util.Date;
 import java.util.UUID;
@@ -12,7 +12,7 @@ public class Availability {
      * @param user
      * @param calendar
      */
-    public Availability(User user, libPcalJ.classes.Calendar calendar){
+    public Availability(User user, Calendar calendar){
         ID = UUID.randomUUID().toString();
         UserID = user.ID;
         CalendarID = calendar.ID;

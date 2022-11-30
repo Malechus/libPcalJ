@@ -1,4 +1,4 @@
-package libPcalJ.classes;
+package libPcalJ;
 
 import java.util.Date;
 import java.util.Optional;
