@@ -1,4 +1,4 @@
-package libPcalJ;
+package libpcalj;
 
 import java.time.LocalTime;
 

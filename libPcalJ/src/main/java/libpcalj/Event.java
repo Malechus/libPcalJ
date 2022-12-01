@@ -1,4 +1,4 @@
-package libPcalJ;
+package libpcalj;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

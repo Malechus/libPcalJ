@@ -1,10 +1,10 @@
-package libPcalJ;
+package libpcalj;
 
 import java.util.UUID;
 
 /**
  * The Calendar Class is an object that represents a shared or private 
- * schedule that can be linked to {@link libPcalJ.Event Events}, {@link Availability Availabilities}, and belongs 
+ * schedule that can be linked to {@link libpcalj.Event Events}, {@link Availability Availabilities}, and belongs 
  * to a {@link User User}.
  */
 public class Calendar {

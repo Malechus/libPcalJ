@@ -45,4 +45,4 @@ java{
 
 version = '0.0.1'
 
-group = 'calendar.poly'
+group = 'com.malechus'

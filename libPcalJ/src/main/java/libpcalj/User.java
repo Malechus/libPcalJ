@@ -1,4 +1,4 @@
-package libPcalJ;
+package libpcalj;
 
 import java.util.Optional;
 import java.util.UUID;
